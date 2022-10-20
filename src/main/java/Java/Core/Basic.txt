@@ -1,0 +1,28 @@
+JVM: JVM means Java virtual machine. It is a specification that provides a runtime environment in which Java byte code
+can be executed. JVM has 3 notions: specification, implementation and instance. It loads, verifies, execute code and
+provide runtime environment.
+
+JRE: JRE means Java runtime environment. It is a set of software tools which are used for developing Java applications.
+It is the implementation of JVM. It contains a set of libraries + other files that JVM uses at runtime.
+
+JDK: JDK means java development kit. It is software development environment which is used to develop java application.
+It contains JRE + development tools.
+
+JVM, JDK, JRE platform dependent because configuration for each OS is different from each other.
+
+Java is platform independent because Java code is compiled by the compiler and converted into byte code. This byte code
+is platform independent because it can be run on multiple platforms. That's why Java is also knows as "Write Once and
+Run Anywhere(WORA)"
+
+JIT: It means just in time compiler. It converts bytecode into machine code.
+
+Classloader: Classloader is a subsystem by JVM which is used to load class files. Whenever we run the java program, it
+is loaded first by the classloader. There are 3 built-in classloaders: Bootstrap, Extension, System Classloader.
+
+Class Area: It contains runtime constant field and method data, the code for methods.
+
+Heap: It is created when the JVM starts up and used by the application as long as the application runs. It stores
+objects JRE classes.
+
+Stack: Stack memory is a physical space in RAM allocated to each other at run time. It stores local variables and
+reference to object. It lives until the function returns.

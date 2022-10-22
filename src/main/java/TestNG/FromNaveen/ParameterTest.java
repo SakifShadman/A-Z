@@ -37,4 +37,18 @@ public class ParameterTest {
     //some other xml files
     //JSON files
     //database
+
+    /*
+    <suite name="OrangeHRM Suite">
+
+    <test name="OrangeHRM Test">
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com"/>
+        <parameter name="username" value="Admin"/>
+        <parameter name="password" value="admin123"/>
+        <classes>
+            <class name="TestNG.FromNaveen.ParameterTest"/>
+        </classes>
+    </test>
+    </suite>
+    */
 }

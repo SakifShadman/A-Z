@@ -6,8 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="MIPractice" />
+        <module name="A-Z" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="A-Z" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

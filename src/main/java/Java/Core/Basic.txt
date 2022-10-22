@@ -8,7 +8,7 @@ It is the implementation of JVM. It contains a set of libraries + other files th
 JDK: JDK means java development kit. It is software development environment which is used to develop java application.
 It contains JRE + development tools.
 
-JVM, JDK, JRE platform dependent because configuration for each OS is different from each other.
+JVM, JDK, JRE is platform dependent because configuration for each OS is different from each other.
 
 Java is platform independent because Java code is compiled by the compiler and converted into byte code. This byte code
 is platform independent because it can be run on multiple platforms. That's why Java is also knows as "Write Once and

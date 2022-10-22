@@ -1,6 +1,6 @@
 package Java.Core;
 
-public class ConcatTest{
+public class ConcatTest{ //7
     public static void main(String[] args){
         long startTime = System.currentTimeMillis();
         StringBuffer sb = new StringBuffer("Java");

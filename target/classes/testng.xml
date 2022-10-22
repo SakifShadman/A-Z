@@ -1,0 +1,7 @@
+<suite name="test_suite">
+    <test name="IT Department">
+        <classes>
+            <class name="TestNG.BeforeAfterGroups"/>
+        </classes>
+    </test>
+</suite>

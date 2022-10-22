@@ -2,9 +2,9 @@ package Java.Core;
 
 import java.util.Arrays;
 
-public class Array {
+public class Array { //5
     public static void main(String[] args) {
-        //An array is array collection of similar type of elements (Contiguous memory location)
+        //An array is a collection of similar type of elements (Contiguous memory location)
         //It does not grow its size at runtime.
 
         int[] array = new int[3]; //declaration and instantiation
@@ -79,9 +79,13 @@ public class Array {
         }
         System.out.println("***********");
 
+        //largest, shortest
         int[] num1= {1,3,2,6,1,6,2,4};
         Arrays.sort(num);
-        System.out.println(num[num.length-7]);
+        System.out.println(num[num.length-1]);
+
+        Arrays.sort(num);
+        System.out.println(num[0]);
 
     }
 }

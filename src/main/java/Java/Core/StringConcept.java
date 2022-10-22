@@ -1,39 +1,42 @@
 package Java.Core;
 
 public class StringConcept {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //6
 
         //String is an object that represents sequence of char values
         //The java.lang.String class implements Serializable, Comparable and CharSequence interfaces.
         //The CharSequence interface is used to represent the sequence of characters.
-        //String, StringBuffer and StringBuilder classes implement it.
+        //String, StringBuffer and StringBuilder classes implement CharSequence.
         //It means, we can create strings in Java by using these three classes.
         //The Java String is immutable which means it cannot be changed.
         //Whenever we change any string, a new instance is created.
         //For mutable strings, you can use StringBuffer and StringBuilder classes.
-        //There are two ways to create String object: By string keyword(literal) and By new keyword
 
+
+        //There are two ways to create String object: By string keyword(literal) and By new keyword
         //By string keyword(literal)
         String s = "welcome"; //Each time you create a string literal, the JVM checks the "string constant pool" first. If the string already exists in the pool, a reference to the pooled instance is returned. If the string doesn't exist in the pool, a new string instance is created and placed in the pool.
         String s1 = "Welcome";
         String s2 = "Welcome";//It doesn't create a new instance
 
         //String objects are stored in a special memory area known as the "string constant pool".
-        //Why Java uses the concept of String literal? To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).
+
+        //Why Java uses the concept of String literal?
+        //To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).
 
         //By new keyword
-        String ss = new String("Welcome");//creates two objects and one reference variable
-        //In such case, JVM will create a new string object in normal (non-pool) heap memory, and the literal "Welcome" will be placed in the string constant pool. The variable s will refer to the object in a heap (non-pool).
+        String ss = new String("Welcome"); //creates two objects and one reference variable
+        //In such case, JVM will create a new string object in normal (non-pool) heap memory, and the literal "Welcome" will be placed in the string constant pool. The variables will refer to the object in a heap (non-pool).
 
 
         //Immutable String
         //Once String object is created its data or state can't be changed but a new String object is created.
         String st = "Sachin";
-        st.concat(" Tendulkar");//concat() method appends the string at the end
+        st.concat(" Tendulkar"); //concat() method appends the string at the end
         System.out.println(st);
 
         //Why String objects are immutable in Java?
-        //As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Sachin". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why String objects are immutable in Java.
+        //As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Welcome". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why String objects are immutable in Java.
 
         //Why String class is Final in Java?
         //The reason behind the String class being final is because no one can override the methods of the String class. So that it can provide the same features to the new String objects as well as to the old ones.
@@ -85,10 +88,11 @@ public class StringConcept {
         //Java StringBuffer class is used to create mutable (modifiable) String objects. The StringBuffer class in Java is the same as String class except it is mutable(it can be changed).
         //Java StringBuffer class is thread-safe so multiple threads cannot access it simultaneously. So it is safe and will result in an order.
 
-        //What is a mutable String? A String that can be modified or changed is known as mutable String. StringBuffer and StringBuilder classes are used for creating mutable strings
+        //What is a mutable String?
+        //A String that can be modified or changed is known as mutable String. StringBuffer and StringBuilder classes are used for creating mutable strings
 
         //The append() method concatenates the given argument with this String.
-        StringBuffer sb=new StringBuffer("Hello ");
+        StringBuffer sb = new StringBuffer("Hello ");
         sb.append("Java");//now original string is changed
         System.out.println(sb);//prints Hello Java
 
@@ -96,10 +100,12 @@ public class StringConcept {
         //The replace() method replaces the given String from the specified beginIndex and endIndex(excluded).
         //The delete() method of the StringBuffer class deletes the String from the specified beginIndex to endIndex(excluded).
         //The reverse() method of the StringBuilder class reverses the current String.
+        sb.reverse();
+        System.out.println(sb);
 
 
         //Java StringBuilder class is used to create mutable (modifiable) String. The Java StringBuilder class is same as StringBuffer class except that it is non-synchronized. It is available since JDK 1.5.
-        StringBuilder sb1=new StringBuilder("Hello ");
+        StringBuilder sb1 = new StringBuilder("Hello ");
         sb1.append("Java");//now original string is changed
         System.out.println(sb1);//prints Hello Java
 

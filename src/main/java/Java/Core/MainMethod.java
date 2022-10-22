@@ -1,6 +1,6 @@
 package Java.Core;
 
-public class MainMethod {
+public class MainMethod { //1
 
     public static void main(String[] args) { //no override, but can overload
 

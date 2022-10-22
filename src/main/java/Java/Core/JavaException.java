@@ -1,7 +1,7 @@
 package Java.Core;
 
 public class JavaException {
-    public static void main(String[] args) {
+    public static void main(String[] args) { //8
 
         //What is Exception in Java?
         //Exception is an abnormal condition. In Java, an exception is an event that disrupts the normal flow of the program. It is an object which is thrown at runtime.
@@ -19,9 +19,9 @@ public class JavaException {
         //IndexOutOfBoundException(ArrayIndexOutOfBoundException, StringIndexOutOfBoundException)
         //2. Error(StackOverFlowError, VirtualMachineError, OutOfMemoryError)
 
-        //According to Oracle, there are three types of exceptions namely:
+        //According to Oracle, there are three types of exceptions:
         //Checked Exception: The classes that directly inherit the Throwable class except RuntimeException and Error are known as checked exceptions. For example, IOException, SQLException, etc. Checked exceptions are checked at compile-time.
-        //Unchecked Exception: The classes that inherit the RuntimeException are known as unchecked exceptions. For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, etc. Unchecked exceptions are not checked at compile-time, but they are checked at runtime.
+        //Unchecked Exception: The classes that inherit the RuntimeException are known as unchecked exceptions. For example, ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException, etc. Unchecked exceptions are checked at runtime.
         //Error: Error is irrecoverable. Some example of errors are OutOfMemoryError, VirtualMachineError, AssertionError etc.
 
 
@@ -54,7 +54,6 @@ public class JavaException {
 
         //Java try block is used to enclose the code that might throw an exception. It must be used within the method.
         //Java catch block is used to handle the Exception by declaring the type of exception within the parameter.
-        //
 
         try{
             String s=null;

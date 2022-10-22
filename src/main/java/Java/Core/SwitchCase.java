@@ -1,6 +1,6 @@
 package Java.Core;
 
-public class SwitchCase {
+public class SwitchCase { //3
     public static void main(String[] args) {
 
         String day = "Tuesday";
@@ -19,7 +19,7 @@ public class SwitchCase {
                 System.out.println("Study Cucumber");
                 break;
             case "Friday":
-                System.out.println("Study Framework");
+                System.out.println("Study Basics");
                 break;
             case "Saturday":
                 System.out.println("Study Everything");

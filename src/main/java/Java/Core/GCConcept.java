@@ -1,6 +1,6 @@
 package Java.Core;
 
-public class GCConcept {
+public class GCConcept { //10
     public static void main(String[] args) {
 
         //In java, garbage means unreferenced objects.

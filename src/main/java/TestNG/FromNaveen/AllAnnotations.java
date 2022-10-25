@@ -53,7 +53,7 @@ public class AllAnnotations {
 
 
     //expectedExceptions
-    @Test(expectedExceptions = NumberFormatException.class) // it will exceptions
+    @Test(expectedExceptions = NumberFormatException.class) // it will handle exceptions
     public void handleException() {
         String x = "100A";
         Integer.parseInt(x);

@@ -13,3 +13,5 @@ testNG -- open source, free
 Jar files
 
 --Java unit testing framework
+
+--verbose: means gives us information at console. range 1-10...

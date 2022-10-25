@@ -22,11 +22,11 @@ public class ParameterTest {
         driver.get(url);
 
         By username = By.name("username");
-        driver.findElement(username).sendKeys(userName);
-
         By password = By.name("password");
-        driver.findElement(password).sendKeys(passWord);
 
+        driver.findElement(username).sendKeys(userName);
+        //driver.findElement(RelativeLocator.with(By.tagName("div")).above(password)).sendKeys(userName);
+        driver.findElement(password).sendKeys(passWord);
         driver.findElement(RelativeLocator.with(By.tagName("button")).below(password)).click();
     }
 

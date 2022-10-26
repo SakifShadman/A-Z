@@ -68,7 +68,7 @@ public class OOPsMisc {
 
 
         //object vs class
-        //object: Object is an instance of a class. Object is a real world entity. Object is a physical entity. Object is created through new keyword mainly e.g. Student s1=new Student(); Object is created many times as per requirement. Object allocates memory when it is created.
-        //class: Class is a blueprint or template from which objects are created. Class is a group of similar objects. Class is a logical entity. Class is declared using class keyword e.g. class Student{}. Class is declared once. Class doesn't allocated memory when it is created.
+        //object: Object is an instance of a class. Object is a real world entity or physical entity. Object is created through new keyword mainly e.g. Student s1=new Student(); Object is created many times as per requirement. Object allocates memory when it is created.
+        //class: Class is a blueprint or template from which objects are created. Class is a group of similar objects. Class is a logical entity. Class is declared using class keyword e.g. class Student{}. Class is declared once. Class doesn't allocate memory when it is created.
     }
 }

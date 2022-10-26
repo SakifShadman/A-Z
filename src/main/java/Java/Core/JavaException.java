@@ -15,7 +15,7 @@ public class JavaException {
 
         //The java.lang.Throwable class is the root class of Java Exception hierarchy inherited by two subclasses: Exception and Error.
         //1. Exception(IOException, SQLException, ClassNotFoundException, RunTimeException)
-        //RunTimeError(ArithmeticException, NullPointerException, NumberFormatException, IndexOutOfBoundException)
+        //RunTimeException(ArithmeticException, NullPointerException, NumberFormatException, IndexOutOfBoundException)
         //IndexOutOfBoundException(ArrayIndexOutOfBoundException, StringIndexOutOfBoundException)
         //2. Error(StackOverFlowError, VirtualMachineError, OutOfMemoryError)
 
@@ -87,7 +87,7 @@ public class JavaException {
         //The Java throw keyword is used to throw an exception explicitly.
         //We specify the exception object which is to be thrown. The Exception has some message with it that provides the error description. These exceptions may be related to user inputs, server, etc.
         //We can throw either checked or unchecked exceptions in Java by throw keyword. It is mainly used to throw a custom exception.
-        //If we throw a checked exception using throw keyword, it is must to handle the exception using catch block or the method must declare it using throws declaration.
+        //If we throw a checked exception using throw keyword, it must handle the exception using catch block or the method must declare it using throws declaration.
 
 
         //The Java throws keyword is used to declare an exception.
@@ -112,6 +112,5 @@ public class JavaException {
         //final is the keyword and access modifier which is used to apply restrictions on a class, method or variable. Final keyword is used with the classes, methods and variables. Final method is executed only when we call it.
         //finally is the block in Java Exception Handling to execute the important code whether the exception occurs or not. Finally block is always related to the try and catch block in exception handling. Finally block is executed as soon as the try-catch block is executed.
         //finalize is the method in Java which is used to perform clean up processing just before object is garbage collected. finalize() method is used with the objects. finalize method is executed just before the object is destroyed.
-
     }
 }

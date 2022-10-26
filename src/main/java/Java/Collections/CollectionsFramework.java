@@ -11,12 +11,12 @@ public class CollectionsFramework {
         //What is Collection in Java?
         //A Collection represents a single unit of objects, i.e., a group.
 
-        //What is a framework in Java
-        //It provides readymade architecture.
+        //What is a framework in Java?
+        //It provides ready-made architecture.
         //It represents a set of classes and interfaces.
         //It is optional.
 
-        //What is Collection framework
+        //What is Collection framework?
         //The Collection framework represents a unified architecture for storing and manipulating a group of objects. It has:
         //Interfaces and its implementations, i.e., classes
         //Algorithm
@@ -32,7 +32,7 @@ public class CollectionsFramework {
         //ArrayList: The ArrayList class implements the List interface. It uses a dynamic array to store the duplicate element of different data types. The ArrayList class maintains the insertion order and is non-synchronized. The elements stored in the ArrayList class can be randomly accessed.
         //LinkedList: LinkedList implements the Collection interface. It uses a doubly linked list internally to store the elements. It can store the duplicate elements. It maintains the insertion order and is not synchronized. In LinkedList, the manipulation is fast because no shifting is required.
         //Vector: Vector uses a dynamic array to store the data elements. It is similar to ArrayList. However, It is synchronized and contains many methods that are not the part of Collection framework.
-        //Stack: The stack is the subclass of Vector. It implements the last-in-first-out data structure, i.e., Stack. The stack contains all of the methods of Vector class and also provides its methods like boolean push(), boolean peek(), boolean push(object o), which defines its properties.
+        //Stack: The stack is the subclass of Vector. It implements the last-in-first-out data structure, i.e., Stack. The stack contains all the methods of Vector class and also provides its methods like boolean push(), boolean peek(), boolean push(object o), which defines its properties.
 
         //Queue Interface: Queue interface maintains the first-in-first-out order. It can be defined as an ordered list that is used to hold the elements which are about to be processed. There are various classes like PriorityQueue, Deque, and ArrayDeque which implements the Queue interface.
         //PriorityQueue: The PriorityQueue class implements the Queue interface. It holds the elements or objects which are to be processed by their priorities. PriorityQueue doesn't allow null values to be stored in the queue.

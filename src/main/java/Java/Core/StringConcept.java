@@ -17,7 +17,7 @@ public class StringConcept {
         //By string keyword(literal)
         String s = "welcome"; //Each time you create a string literal, the JVM checks the "string constant pool" first. If the string already exists in the pool, a reference to the pooled instance is returned. If the string doesn't exist in the pool, a new string instance is created and placed in the pool.
         String s1 = "Welcome";
-        String s2 = "Welcome";//It doesn't create a new instance
+        String s2 = "Welcome"; //It doesn't create a new instance
 
         //String objects are stored in a special memory area known as the "string constant pool".
 
@@ -39,7 +39,7 @@ public class StringConcept {
         //As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Welcome". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why String objects are immutable in Java.
 
         //Why String class is Final in Java?
-        //The reason behind the String class being final is because no one can override the methods of the String class. So that it can provide the same features to the new String objects as well as to the old ones.
+        //The reason behind the String class being final because no one can override the methods of the String class. So that it can provide the same features to the new String objects as well as to the old ones.
 
 
         //There are three ways to compare String in Java:

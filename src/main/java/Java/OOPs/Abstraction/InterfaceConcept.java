@@ -21,7 +21,7 @@ public class InterfaceConcept { //2
 
         //The Java compiler adds public and abstract keywords before the interface method. Moreover, it adds public, static and final keywords before data members.
 
-        //a class extends another class, an interface extends another interface, but a class implements an interface.
+        //A class extends another class, an interface extends another interface, but a class implements an interface.
 
         //Multiple inheritance in Java by interface: If a class implements multiple interfaces, or an interface extends multiple interfaces, it is known as multiple inheritance.
 
@@ -32,9 +32,7 @@ public class InterfaceConcept { //2
         //An interface which has no member is known as a marker or tagged interface, for example, Serializable, Cloneable, Remote, etc. They are used to provide some essential information to the JVM so that JVM may perform some useful operation.
 
         //abstract vs interface
-        //abstract: Abstract class can have abstract and non-abstract methods. Abstract class doesn't support multiple inheritance.	Abstract class can have final, non-final, static and non-static variables. The abstract keyword is used to declare abstract class. An abstract class can extend another Java class and implement multiple Java interfaces. An abstract class can be extended using keyword "extends". abstract class achieves partial abstraction (0 to 100%).
-        //interface: Interface can have only abstract methods. Interface supports multiple inheritance. Interface has only static and final variables. The interface keyword is used to declare interface. An interface can extend another Java interface only. An interface can be implemented using keyword "implements". whereas interface achieves fully abstraction (100%).
-
-
+        //abstract: Abstract class can have abstract and non-abstract methods. Abstract class doesn't support multiple inheritance.	Abstract class can have final, non-final, static and non-static variables. The abstract keyword is used to declare abstract class. An abstract class can extend another Java class and implement multiple Java interfaces. An abstract class can be extended using keyword "extends". Abstract class achieves partial abstraction (0 to 100%).
+        //interface: Interface can have only abstract methods. Interface supports multiple inheritance. Interface has only static and final variables. The interface keyword is used to declare interface. An interface can extend another Java interface only. An interface can be implemented using keyword "implements". Whereas interface achieves fully abstraction (100%).
     }
 }

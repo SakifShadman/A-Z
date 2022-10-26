@@ -3,7 +3,8 @@ package Java.OOPs.Inheritance;
 public class AggregationConcept { //2
     public static void main(String[] args) {
 
-        //Aggregation in Java: If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.
+        //Aggregation represents the relationship where one object contains other objects as a part of its state.
+        //If a class have an entity reference, it is known as Aggregation. Aggregation represents HAS-A relationship.
 
         /*
         class Employee{

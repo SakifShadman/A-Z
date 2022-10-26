@@ -10,22 +10,19 @@ public class ListInterface { //1
         //Java List vs ArrayList
         //List is an interface whereas ArrayList is the implementation class of List.
 
-        //How to create List
+        //How to create List?
         //The ArrayList and LinkedList classes provide the implementation of List interface.
 
-        //How to convert Array to List
-        //We can convert the Array to List by traversing the array and adding the element in list one by one using list.add() method.
+        //How to convert Array to List?
+        //We can convert the Array to List by traversing the array and adding the element in list one by one using asList() method.
         String[] array = {"Java", "PHP", "Python", "C#"};
         System.out.println("Printing Array: " + Arrays.toString(array));
 
-        List<String> list = new ArrayList<>();
-        for (String s : array) {
-            list.add(s);
-        }
+        List<String> list = new ArrayList<>(Arrays.asList(array));
         System.out.println("Printing list: " + list);
 
 
-        //How to convert List to Array
+        //How to convert List to Array?
         //We can convert the List to Array by calling the list.toArray() method. Let's see a simple example to convert list elements into array.
         List<String> fruit = new ArrayList<>();
         fruit.add("Grape");

@@ -5,7 +5,7 @@ public class MethodOverriding { //2
 
         //If subclass (child class) has the same method as declared in the parent class, it is known as method overriding in Java.
 
-        //Usage of Java Method Overriding
+        //Usage of Java Method Overriding:
         //Method overriding is used to provide the specific implementation of a method which is already provided by its superclass.
         //Method overriding is used for runtime polymorphism
 

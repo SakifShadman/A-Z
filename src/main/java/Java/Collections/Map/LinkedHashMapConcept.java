@@ -8,7 +8,7 @@ public class LinkedHashMapConcept { //3
 
         //Java LinkedHashMap class is Hashtable and Linked list implementation of the Map interface, with predictable iteration order. It inherits HashMap class and implements the Map interface.
 
-        //Points to remember
+        //Points to remember:
         //Java LinkedHashMap contains values based on the key.
         //Java LinkedHashMap contains unique elements.
         //Java LinkedHashMap may have one null key and multiple null values.

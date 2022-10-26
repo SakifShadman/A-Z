@@ -43,16 +43,15 @@ public class HashMapConcept { //2
         //No Duplicate Key on HashMap
         //You cannot store duplicate keys in HashMap. However, if you try to store duplicate key with another value, it will replace the value.
 
-        //Difference between HashSet and HashMap
+        //Difference between HashSet and HashMap?
         //HashSet contains only values whereas HashMap contains an entry(key and value).
 
 
-        //What is Hashing
+        //What is Hashing?
         //It is the process of converting an object into an integer value. The integer value helps in indexing and faster searches.
 
-        //What is HashMap
+        //What is HashMap?
         //HashMap is a part of the Java collection framework. It uses a technique called Hashing. It implements the map interface. It stores the data in the pair of Key and Value. HashMap contains an array of the nodes, and the node is represented as a class. It uses an array and LinkedList data structure internally for storing Key and Value. There are four fields in HashMap.
-
         //equals(): It checks the equality of two objects. It compares the Key, whether they are equal or not. It is a method of the Object class. It can be overridden. If you override the equals() method, then it is mandatory to override the hashCode() method.
         //hashCode(): This is the method of the object class. It returns the memory reference of the object in integer form. The value received from the method is used as the bucket number. The bucket number is the address of the element inside the map. Hash code of null Key is 0.
         //Buckets: Array of the node is called buckets. Each node has a data structure like a LinkedList. More than one node can share the same bucket. It may be different in capacity.

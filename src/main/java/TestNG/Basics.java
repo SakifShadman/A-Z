@@ -45,6 +45,5 @@ public class Basics { //1
 
         //Open API:
         //TestNG contains the open API means API is publicly available to the developers. This feature allows you to create your custom extensions in your framework when required.
-
     }
 }

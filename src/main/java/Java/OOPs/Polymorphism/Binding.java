@@ -5,7 +5,7 @@ public class Binding { //7
 
         //Connecting a method call to the method body is known as binding.
         //There are two types of binding
-        //Static Binding (also known as Early Binding): //When type of the object is determined at compiled time(by the compiler), it is known as static binding. If there is any private, final or static method in a class, there is static binding.
+        //Static Binding (also known as Early Binding): When type of the object is determined at compiled time(by the compiler), it is known as static binding. If there is any private, final or static method in a class, there is static binding.
         //Dynamic Binding (also known as Late Binding): When type of the object is determined at run-time, it is known as dynamic binding.
 
 

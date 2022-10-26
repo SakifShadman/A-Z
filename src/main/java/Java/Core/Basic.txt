@@ -1,4 +1,4 @@
-JVM: JVM means Java virtual machine. It is a specification that provides a runtime environment in which Java byte code
+JVM: JVM means Java virtual machine. It is a specification that provides runtime environment in which Java byte code
 can be executed. JVM has 3 notions: specification, implementation and instance. It loads, verifies, execute code and
 provide runtime environment.
 

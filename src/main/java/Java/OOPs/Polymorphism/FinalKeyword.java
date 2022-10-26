@@ -18,7 +18,7 @@ public class FinalKeyword { //5
         //If you make any class as final, you cannot extend it.
 
         //Is final method inherited?
-        //Ans: Yes, final method is inherited but you cannot override it.
+        //Ans: Yes, final method is inherited, but you cannot override it.
 
         //What is blank or uninitialized final variable?
         //A final variable that is not initialized at the time of declaration is known as blank final variable.

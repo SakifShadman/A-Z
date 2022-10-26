@@ -14,6 +14,6 @@ public class MapInterface { //1
         //TreeMap: TreeMap is the implementation of Map and SortedMap. It maintains ascending order.
 
         //Map.Entry Interface
-        //Entry is the subinterface of Map. So we will be accessed it by Map.Entry name. It returns a collection-view of the map, whose elements are of this class. It provides methods to get key and value.
+        //Entry is the sub-interface of Map. So we will be accessed it by Map.Entry name. It returns a collection-view of the map, whose elements are of this class. It provides methods to get key and value.
     }
 }

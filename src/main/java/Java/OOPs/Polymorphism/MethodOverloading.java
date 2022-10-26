@@ -20,7 +20,5 @@ public class MethodOverloading { //1
         //Byte can be promoted to short, int, long, float or double. The short datatype can be promoted to int, long, float or double. The char datatype can be promoted to int,long,float or double and so on.
         //If there are matching type arguments in the method, type promotion is not performed.
         //If there are no matching type arguments in the method, and each method promotes similar number of arguments, there will be ambiguity.
-
-
     }
 }

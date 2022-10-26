@@ -20,6 +20,7 @@ public class Groups { //5
     public void APILoginPersonalLoan() {
         System.out.println("API Login Personal Loan");
     }
+
     /*
     <suite name = "suite">
     <groups>

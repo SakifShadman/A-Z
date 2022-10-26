@@ -3,12 +3,12 @@ package Java.OOPs.JavaObjectClass;
 public class JavaOOPsConcept { //1
     public static void main(String[] args) {
 
-        // Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies software development and maintenance by providing some concepts:
+        //Object-Oriented Programming is a methodology or paradigm to design a program using classes and objects. It simplifies software development and maintenance by providing some concepts:
         //Object: An Object can be defined as an instance of a class. An object contains an address and takes up some space in memory.
         //Class: Collection of objects is called class. It is a logical entity. A class can also be defined as a blueprint from which you can create an individual object.
         //Inheritance: When one object acquires all the properties and behaviors of a parent object, it is known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
         //Polymorphism: Polymorphism in Java means performing a single action in different ways. It means many forms. There are two types of polymorphism in Java: compile-time polymorphism and runtime polymorphism. We can perform polymorphism in java by method overloading and method overriding.
-        //Abstraction: Hiding internal details and showing functionality is known as abstraction. For example phone call, we don't know the internal processing. In Java, we use abstract class and interface to achieve abstraction.
+        //Abstraction: Hiding internal details and showing functionality is known as abstraction. In Java, we use abstract class and interface to achieve abstraction.
         //Encapsulation: Binding (or wrapping) code and data together into a single unit are known as encapsulation.
 
         //Association:

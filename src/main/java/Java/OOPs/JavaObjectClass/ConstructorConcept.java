@@ -26,7 +26,7 @@ public class ConstructorConcept { //5
 
         //Constructor vs Method
         //Constructor: A constructor is used to initialize the state of an object. A constructor must not have a return type. The constructor is invoked implicitly. The constructor name must be same as the class name.
-        //A method is used to expose the behavior of an object. A method must have a return type. The method is invoked explicitly. The method name may or may not be same as the class name.
+        //Method: A method is used to expose the behavior of an object. A method must have a return type. The method is invoked explicitly. The method name may or may not be same as the class name.
 
         //There are many ways to copy the values of one object into another in Java. They are:
         //By constructor

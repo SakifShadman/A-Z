@@ -10,11 +10,11 @@ public class JavaThreads { //9
         //2) You can perform many operations together, so it saves time.
         //3) Threads are independent, so it doesn't affect other threads if an exception occurs in a single thread.
 
-        //What is Thread in java
+        //What is Thread in java?
         //A thread is a lightweight subprocess, the smallest unit of processing. It is a separate path of execution.
         //Threads are independent. If there occurs exception in one thread, it doesn't affect other threads. It uses a shared memory area.
 
-        //The java thread states are as follows:
+        //The java thread states (life cycle) are as follows:
         //New
         //Runnable
         //Running

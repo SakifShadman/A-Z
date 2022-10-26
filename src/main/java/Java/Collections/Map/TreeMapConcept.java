@@ -12,7 +12,7 @@ public class TreeMapConcept { //4
         //Java TreeMap is non synchronized.
         //Java TreeMap maintains ascending order.
 
-        //TreeMap vs HashMap
+        //TreeMap vs HashMap?
         //HashMap: HashMap can contain one null key. HashMap maintains no order.
         //TreeMap: TreeMap cannot contain any null key.	TreeMap maintains ascending order.
     }

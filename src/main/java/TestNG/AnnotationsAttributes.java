@@ -19,7 +19,7 @@ public class AnnotationsAttributes { //8
         //Assert.fail();
     }
 
-    @Test(dependsOnMethods= {"WebStudentLogin"}, alwaysRun = true)
+    @Test(dependsOnMethods= {"WebStudentLogin"}, alwaysRun = true) //alwaysRun = true, means always run
     public void MobileStudentLogin() {
         System.out.println("Student login through mobile");
     }
@@ -53,18 +53,18 @@ public class AnnotationsAttributes { //8
     //timeOut: If one of the test cases is taking a long time due to which other test cases are failing. To overcome such situation, you need to mark the test case as fail to avoid the failure of other test cases. The timeOut is a time period provided to the test case to completely execute its test case.
 
     @Test(timeOut=200)
-    public void testcase01() throws InterruptedException {
+    public void testCase1() throws InterruptedException {
         Thread.sleep(500);
         System.out.println("This is testcase1");
     }
 
     @Test
-    public void testcaes2() {
+    public void testCase2() {
         System.out.println("This is testcase2");
     }
 
     @Test
-    public void testcase3() {
+    public void testCase3() {
         System.out.println("This is testcase3");
     }
     //In the above code, inside the testcase1() method, we have Thread.sleep(500) which means that the testcase1() method will be executed after 500 milliseconds, but we have provided timeOUT attribute with the value 200 means that the testcase1() will be failed after 200 milliseconds.

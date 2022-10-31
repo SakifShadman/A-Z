@@ -11,7 +11,7 @@ public class CustomXPath {
         //1. abs xpath
         // /html/body/div/div[2]/ul
 
-        //2.relative/custom xpath
+        //2. relative/custom xpath
         //use some xpath functions
         //xpath syntax
         //xpath axes
@@ -49,7 +49,7 @@ public class CustomXPath {
         //(//div[@class='footer-main'])[2]//a -- can use by index number
         //(//div[@class='footer-main'])[position()=2]//a -- also can use by position()
         //((//div[@class='footer-main'])[2]//a)[3]
-        //(//div[@class='footer-main'])[last()] -- can use last() to go last element
+        //(//div[@class='footer-main'])[last()] -- can use last() to get last element
 
 
         //dynamic WebTableHandle:

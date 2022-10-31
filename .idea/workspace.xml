@@ -5,42 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb7795c-72d7-4b7f-8831-c9a96e0c7154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium/locators/RelativeLocators.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/CollectionsFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/CollectionsFramework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/List/ArrayListConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/List/ArrayListConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/List/ListInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/List/ListInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/HashMapConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/HashMapConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/HashtableConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/HashtableConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/LinkedHashMapConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/LinkedHashMapConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/MapInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/MapInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/TreeMapConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/Map/TreeMapConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/Set/TreeSetClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/Set/TreeSetClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/Basic.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/Basic.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/Array.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/JavaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/JavaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/JavaThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/JavaThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/Loops.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/Loops.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/MainMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/MainMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/StringConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/StringConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Abstraction/InterfaceConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Abstraction/InterfaceConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Encapsulation/EncapsulationConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Encapsulation/EncapsulationConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Inheritance/AggregationConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Inheritance/AggregationConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/ConstructorConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/ConstructorConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/JavaOOPsConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/JavaOOPsConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/Methods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/Methods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/StaticKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/StaticKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/ThisKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/ThisKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/OOPsMisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/OOPsMisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/Binding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/Binding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/FinalKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/FinalKeyword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/InstanceInitializerBlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/InstanceInitializerBlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/InstanceOf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/InstanceOf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverriding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/RuntimePolymorphism.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/RuntimePolymorphism.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/SuperKeyword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/SuperKeyword.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/Basics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/locators/CustomCSSSelector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/locators/CustomCSSSelector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/locators/CustomXPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/locators/CustomXPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/AnnotationsAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/AnnotationsAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/BeforeAfterGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/BeforeAfterGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/FromNaveen/Notes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/FromNaveen/Notes.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/FromNaveen/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/FromNaveen/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/Parameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/Parameters.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/Array.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/Array.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/JavaException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/JavaException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/MainMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/MainMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/StringConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/StringConcept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNG/AnnotationsAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNG/AnnotationsAttributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNG/BeforeAfterGroups.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNG/BeforeAfterGroups.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +64,33 @@
       <recent name="C:\Users\arnob\IdeaProjects\MIPractice\src\main\java\TestNG\FromNaveen" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/arnob/IdeaProjects/MIPractice/src/main/java/TestNG/FromNaveen/testng.xml">
+  <component name="RunManager" selected="Application.JavaException">
+    <configuration name="Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Core.Array" />
+      <module name="MIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContinueBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Core.ContinueBreak" />
+      <module name="MIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java.Core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="JavaException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java.Core.JavaException" />
       <module name="MIPractice" />
@@ -94,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedHashMapConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Collections.Map.LinkedHashMapConcept" />
+    <configuration name="Loops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Core.Loops" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Collections.Map.*" />
+          <option name="PATTERN" value="Java.Core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,49 +117,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Collections.List.ListInterface" />
+    <configuration name="StringConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.Core.StringConcept" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Collections.List.*" />
+          <option name="PATTERN" value="Java.Core.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TreeSetClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Collections.Set.TreeSetClass" />
-      <module name="MIPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.Collections.Set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="C:/Users/arnob/IdeaProjects/MIPractice/src/main/java/TestNG/FromNaveen/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="MIPractice" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/TestNG/FromNaveen/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/arnob/IdeaProjects/MIPractice/src/main/java/TestNG/FromNaveen/testng.xml" />
-        <item itemvalue="Application.LinkedHashMapConcept" />
-        <item itemvalue="Application.TreeSetClass" />
-        <item itemvalue="Application.ListInterface" />
         <item itemvalue="Application.JavaException" />
+        <item itemvalue="Application.StringConcept" />
+        <item itemvalue="Application.Array" />
+        <item itemvalue="Application.Loops" />
+        <item itemvalue="Application.ContinueBreak" />
       </list>
     </recent_temporary>
   </component>

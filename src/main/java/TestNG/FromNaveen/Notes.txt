@@ -1,7 +1,8 @@
 TestNG -- unit test framework
 TDD -- Test Driven Development
 
-purpose -- design test cases in a systematic way
+purpose:
+--design test cases in a systematic way
 --html reports
 --different annotations
 --priorities/sequence

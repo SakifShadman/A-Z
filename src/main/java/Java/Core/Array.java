@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Array { //5
     public static void main(String[] args) {
         //An array is a collection of similar type of elements (Contiguous memory location)
-        //It does not grow its size at runtime.
+        //It does not grow its size at runtime
 
         int[] array = new int[3]; //declaration and instantiation
         array[0] = 3; //initialization
@@ -48,10 +48,10 @@ public class Array { //5
         char[] from = { 'd', 'e', 'c', 'a', 'f', 'f', 'e', 'i', 'n', 'a', 't', 'e', 'd' };
 
         //declaring a destination array
-        char[] to = new char[6];
+        char[] to = new char[7];
 
         //copying array using System.arraycopy()
-        System.arraycopy(from, 3, to, 0, 6);
+        System.arraycopy(from, 2, to, 0, 7);
 
         for (char c : to) {
             System.out.println(c);
@@ -80,12 +80,13 @@ public class Array { //5
         System.out.println("***********");
 
         //largest, shortest
-        int[] num1= {1,3,2,6,1,6,2,4};
-        Arrays.sort(num);
-        System.out.println(num[num.length-1]);
+        int[] num1= {1,3,2,16,41,69,22,4};
+        Arrays.sort(num1);
+        System.out.println(num1[num1.length-1]);
+        System.out.println(num1[num1.length-3]);
 
-        Arrays.sort(num);
-        System.out.println(num[0]);
-
+        Arrays.sort(num1);
+        System.out.println(num1[0]);
+        System.out.println(num1[4]);
     }
 }

@@ -56,7 +56,7 @@ public class CustomCSSSelector {
         //comma in CSS:
         input#username, input#password, button#loginBtn -- will validate everything from one cssSelector
 
-        //nth-of-type: works like index as xpath but xpath is better for index concep
+        //nth-of-type: works like index as xpath but xpath is better for index concept
 
         //no text capture
 

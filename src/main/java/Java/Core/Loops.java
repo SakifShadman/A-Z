@@ -28,7 +28,7 @@ public class Loops { //4
         }
         while (j<=arr.length-1);
 
-        // while vs do-while
+        //while vs do-while
         //while loop checks the condition first then executes the statement
         //but do-while loop will execute the statement at least once, then checked the condition
 

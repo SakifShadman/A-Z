@@ -31,7 +31,7 @@ public class BeforeAfterGroups { //7
 
     //@AfterGroups: The @AfterGroups annotated method will run only once after the execution of all the test methods of a specified group.
 
-    @AfterGroups("Testing tool")
+    @AfterGroups(groups = {"IT Department"})
     public void after_group() {
         System.out.println("The list which is shown above are the testing tools");
     }

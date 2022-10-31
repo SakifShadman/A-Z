@@ -1,15 +1,15 @@
-<!--<suite name="RetryFailedTestSuite">-->
+<suite name="RetryFailedTestSuite">
 
-<!--    <listeners>-->
-<!--        <listener class-name="TestNG.FromNaveen.Analyzer.MyTransformer"/>-->
-<!--    </listeners>-->
+    <listeners>
+        <listener class-name="TestNG.FromNaveen.Analyzer.MyTransformer"/>
+    </listeners>
 
-<!--    <test name="RetryMultipleFailedTestCases" verbose="4">-->
-<!--        <classes>-->
-<!--            <class name="TestNG.FromNaveen.myTests.MyTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-<!--</suite>-->
+    <test name="RetryMultipleFailedTestCases" verbose="4">
+        <classes>
+            <class name="TestNG.FromNaveen.myTests.MyTest"/>
+        </classes>
+    </test>
+</suite>
 
 
 <!--<suite name="OrangeHRM Suite">-->
@@ -23,16 +23,16 @@
 <!--    </test>-->
 <!--</suite>-->
 
-<suite name = "suite">
-<groups>
-    <run>
-        <include name="Smoke"/>
-    </run>
-</groups>
-<test name = "test">
-    <classes>
-        <class name="TestNG.TestCasesRegex"/>
-        <class name="TestNG.Groups"/>
-    </classes>
-</test>
-</suite>
+<!--<suite name = "suite">-->
+<!--<groups>-->
+<!--    <run>-->
+<!--        <include name="Smoke"/>-->
+<!--    </run>-->
+<!--</groups>-->
+<!--<test name = "test">-->
+<!--    <classes>-->
+<!--        <class name="TestNG.TestCasesRegex"/>-->
+<!--        <class name="TestNG.Groups"/>-->
+<!--    </classes>-->
+<!--</test>-->
+<!--</suite>-->

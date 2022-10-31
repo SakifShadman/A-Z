@@ -1,7 +1,8 @@
 package Java.Core;
 
-public class StringConcept {
-    public static void main(String[] args) { //6
+public class StringConcept { //6
+
+    public static void main(String[] args) {
 
         //String is an object that represents sequence of char values
         //The java.lang.String class implements Serializable, Comparable and CharSequence interfaces.
@@ -14,7 +15,7 @@ public class StringConcept {
 
 
         //There are two ways to create String object: By string keyword(literal) and By new keyword
-        //By string keyword(literal)
+        //By string keyword(literal):
         String s = "welcome"; //Each time you create a string literal, the JVM checks the "string constant pool" first. If the string already exists in the pool, a reference to the pooled instance is returned. If the string doesn't exist in the pool, a new string instance is created and placed in the pool.
         String s1 = "Welcome";
         String s2 = "Welcome"; //It doesn't create a new instance
@@ -24,16 +25,19 @@ public class StringConcept {
         //Why Java uses the concept of String literal?
         //To make Java more memory efficient (because no new objects are created if it exists already in the string constant pool).
 
-        //By new keyword
+        //By new keyword:
         String ss = new String("Welcome"); //creates two objects and one reference variable
         //In such case, JVM will create a new string object in normal (non-pool) heap memory, and the literal "Welcome" will be placed in the string constant pool. The variables will refer to the object in a heap (non-pool).
 
 
-        //Immutable String
+        //Immutable String:
         //Once String object is created its data or state can't be changed but a new String object is created.
-        String st = "Sachin";
-        st.concat(" Tendulkar"); //concat() method appends the string at the end
+        String st = "Sakif";
+        String aa = st.concat(" Shadman"); //concat() method appends the string at the end
         System.out.println(st);
+        System.out.println(aa);
+        aa.concat("Arnob");
+        System.out.println(aa);
 
         //Why String objects are immutable in Java?
         //As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Welcome". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why String objects are immutable in Java.
@@ -44,6 +48,9 @@ public class StringConcept {
 
         //There are three ways to compare String in Java:
         //By Using equals() Method: The String class equals() method compares the original content of the string. It compares values of string for equality
+        String sa1="Sachin";
+        String sa2=new String("Sachin");
+        System.out.println(sa1.equals(sa2));
 
         //By Using == Operator: The == operator compares references not values.
         String ss1="Sachin";
@@ -69,10 +76,10 @@ public class StringConcept {
         //In Java, String concatenation forms a new String that is the combination of multiple strings. There are two ways to concatenate strings in Java:
         //By + (String concatenation) operator
         //By concat() method
-        //In Java, String concatenation is implemented through the StringBuilder (or StringBuffer) class and it's append method.
+        //In Java, String concatenation is implemented through the StringBuilder (or StringBuffer) class and it's append() method.
 
 
-        //Substring in Java
+        //Substring in Java:
         //A part of String is called substring. In other words, substring is a subset of another String. In case of substring() method startIndex is inclusive and endIndex is exclusive.
 
         //split() method stored in an array of String objects sentences.
@@ -91,7 +98,7 @@ public class StringConcept {
         //What is a mutable String?
         //A String that can be modified or changed is known as mutable String. StringBuffer and StringBuilder classes are used for creating mutable strings
 
-        //The append() method concatenates the given argument with this String.
+        //append() method concatenates the given argument with this String.
         StringBuffer sb = new StringBuffer("Hello ");
         sb.append("Java");//now original string is changed
         System.out.println(sb);//prints Hello Java

@@ -38,6 +38,9 @@ public class JavaException {
         catch (ArithmeticException e) {
             System.out.println(e);
         }
+        finally {
+            System.out.println("Print out my finally block");
+        }
 
         int[] num = new int[0];
         try {
@@ -47,7 +50,7 @@ public class JavaException {
             System.out.println(num[3]);
             System.out.println(num[1]);
         }
-        catch (ArrayIndexOutOfBoundsException e) {
+        catch (RuntimeException e) {
             System.out.println(e);
         }
         System.out.println(num[1]);
@@ -98,6 +101,7 @@ public class JavaException {
         //Ans: Checked exception only, because:
         //unchecked exception: under our control so we can correct our code.
         //error: beyond our control. For example, we are unable to do anything if there occurs VirtualMachineError or StackOverflowError.
+
 
         //Can we rethrow an exception?
         //Yes, by throwing same exception in catch block.

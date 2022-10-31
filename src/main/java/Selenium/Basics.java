@@ -22,7 +22,7 @@ public class Basics {
         driver.get("www.google.com");
         driver.navigate().to("www.amazon.com");
         //no difference between them. to() method also call get() method internally to run the code.
-        //we use navigate to back and forward. even if we use get() for url navigate back and forward will still work.
+        //we use navigate for back and forward. even if we use get() for url navigate back and forward will still work.
         //if we want to use 3rd party domain/url its best to use navigate().to() but for main domain should use get().
         driver.navigate().refresh(); //navigate use for refreshing too
 

@@ -24,7 +24,7 @@ public class ConstructorConcept { //5
         //In Java, a constructor is just like a method but without return type. It can also be overloaded like Java methods.
         //Constructor overloading in Java is a technique of having more than one constructor with different parameter lists. They are arranged in a way that each constructor performs a different task. They are differentiated by the compiler by the number of parameters in the list and their types.
 
-        //Constructor vs Method
+        //Constructor vs Method?
         //Constructor: A constructor is used to initialize the state of an object. A constructor must not have a return type. The constructor is invoked implicitly. The constructor name must be same as the class name.
         //Method: A method is used to expose the behavior of an object. A method must have a return type. The method is invoked explicitly. The method name may or may not be same as the class name.
 

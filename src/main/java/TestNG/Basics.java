@@ -15,7 +15,7 @@ public class Basics { //1
         //Parallel execution of test cases, i.e., running multiple test cases is only possible in the TestNG framework.
 
 
-        //Features of TestNG
+        //Features of TestNG:
         //Multiple Before and After annotation options:
         //Before and after annotations are used to execute a certain set of code before and after executing the test methods. These annotations are used to set the variables or configuration before the start of the execution of test methods and clean up all the variables after the execution ends. Some of the Before and After annotations are @BeforeSuite, @BeforeTest, @BeforeGroups, @BeforeClass, etc.
 

@@ -16,7 +16,7 @@ public class AnnotationsAttributes { //8
     @Test(priority = -500)
     public void WebStudentLogin() {
         System.out.println("Student login through web");
-        //Assert.fail();
+        Assert.fail();
     }
 
     @Test(dependsOnMethods= {"WebStudentLogin"}, alwaysRun = true) //alwaysRun = true, means always run

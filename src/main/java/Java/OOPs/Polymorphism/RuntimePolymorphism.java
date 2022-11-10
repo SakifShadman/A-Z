@@ -6,7 +6,7 @@ public class RuntimePolymorphism { //6
         //Runtime polymorphism (or Dynamic Method Dispatch) is a process in which a call to an overridden method is resolved at runtime rather than compile-time.
         //In this process, an overridden method is called through the reference variable of a superclass. The determination of the method to be called is based on the object being referred to by the reference variable.
 
-        //Upcasting: If the reference variable of Parent class refers to the object of Child class, it is known as upcasting (Top casting). For example:
+        //Upcasting (Top casting): If the reference variable of Parent class refers to the object of Child class, it is known as upcasting or Top casting. For example:
         //class A{}
         //class B extends A{}
         //A a=new B();//upcasting

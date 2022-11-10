@@ -7,12 +7,12 @@ abstract class AbstractClass { //1
         //Another way, it shows only essential things to the user and hides the internal details.
         //Abstraction lets you focus on what the object does instead of how it does it.
 
-        //Ways to achieve Abstraction
+        //Ways to achieve Abstraction:
         //There are two ways to achieve abstraction in java
         //Abstract class (0 to 100%)
         //Interface (100%)
 
-        //Points to Remember
+        //Points to Remember:
         //An abstract class must be declared with an abstract keyword.
         //It can have abstract and non-abstract methods.
         //It cannot be instantiated.

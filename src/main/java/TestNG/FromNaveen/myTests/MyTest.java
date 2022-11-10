@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class MyTest {
 
-    @Test //(retryAnalyzer = RetryAnalyzer.class)
+    @Test (retryAnalyzer = RetryAnalyzer.class)
     public void test1() {
         Assert.assertEquals(true, false);
     }

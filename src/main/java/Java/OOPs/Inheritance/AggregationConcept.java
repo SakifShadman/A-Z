@@ -16,6 +16,6 @@ public class AggregationConcept { //2
 
         //When use Aggregation?
         //Code reuse is also best achieved by aggregation when there is no is-a relationship.
-        //Inheritance should be used only if the relationship is-a is maintained throughout the lifetime of the objects involved; otherwise, aggregation is the best choice.
+        //Inheritance should be used only if the relationship 'is-a' is maintained throughout the lifetime of the objects involved; otherwise, aggregation is the best choice.
     }
 }

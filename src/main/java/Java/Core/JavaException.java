@@ -1,5 +1,7 @@
 package Java.Core;
 
+import java.io.FileInputStream;
+
 public class JavaException {
     public static void main(String[] args) { //8
 

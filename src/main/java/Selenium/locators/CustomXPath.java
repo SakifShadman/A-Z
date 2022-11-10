@@ -41,7 +41,7 @@ public class CustomXPath {
         //htmltag[@class='c1 c2 c3 ... cn')]
 
         By x1 = By.xpath("//htmltag[@class='c1 c2 c3 ... cn')]"); //right
-        By x2 = By.className("//htmltag[@class='c1 c2 c3 ... cn')]"); //wrong(only one class name allowed)
+        By x2 = By.className("c1 c2 c3 ... cn"); //wrong(only one class name allowed)
         By x3 = By.className("c3"); //right
         By x4 = By.className("c2"); //right
 

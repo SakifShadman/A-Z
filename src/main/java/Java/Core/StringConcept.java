@@ -33,11 +33,11 @@ public class StringConcept { //6
         //Immutable String:
         //Once String object is created its data or state can't be changed but a new String object is created.
         String st = "Sakif";
-        String aa = st.concat(" Shadman"); //concat() method appends the string at the end
+        st = st.concat(" Shadman"); //concat() method appends the string at the end
         System.out.println(st);
-        System.out.println(aa);
-        aa.concat("Arnob");
-        System.out.println(aa);
+//        System.out.println(aa);
+//        aa.concat("Arnob");
+//        System.out.println(aa);
 
         //Why String objects are immutable in Java?
         //As Java uses the concept of String literal. Suppose there are 5 reference variables, all refer to one object "Welcome". If one reference variable changes the value of the object, it will be affected by all the reference variables. That is why String objects are immutable in Java.

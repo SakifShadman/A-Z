@@ -1,0 +1,6 @@
+From selenium 4 we can take screenshot at element, section and also full-page level.
+Element means for one particular web element.
+Section means any particular table, form or block of element altogether.
+Full-page screenshot can be takes two ways.
+getScreenshotAs() – This Selenium 4 method allows us to capture a screenshot of a particular WebElement (only visible part of the website).
+getFullPageScreenshotAs() – This method of Selenium 4 allows us to take full page screenshot in Firefox (top to bottom).

@@ -1,10 +1,13 @@
 package Java.OOPs.JavaObjectClass;
 
 public class ConstructorConcept { //5
+
+    String name;
     public static void main(String[] args) {
 
         //Constructor is a special type of method which is used to initialize the object.
         //Every time an object is created using the new() keyword, at least one constructor is called. It calls a default constructor if there is no constructor available in the class. In such case, Java compiler provides a default constructor by default.
+
         //There are two types of constructors in Java -
         //default constructor (no-arg constructor): A constructor is called "Default Constructor" when it doesn't have any parameter.
         //parameterized constructor: A constructor which has a specific number of parameters is called a parameterized constructor.

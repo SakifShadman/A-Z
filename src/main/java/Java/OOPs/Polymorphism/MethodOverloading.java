@@ -12,6 +12,8 @@ public class MethodOverloading { //1
 
         //Why Method Overloading is not possible by changing the return type of method only?
         //In java, method overloading is not possible by changing the return type of the method only because of ambiguity.
+        //static int add(int a,int b){return a+b;}
+        //static double add(int a,int b){return a+b;}
 
         //Can we overload java main() method?
         //Yes, by method overloading. You can have any number of main methods in a class by method overloading. But JVM calls main() method which receives string array as arguments only.

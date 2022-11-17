@@ -33,7 +33,7 @@ public class StringConcept { //6
         //Immutable String:
         //Once String object is created its data or state can't be changed but a new String object is created.
         String st = "Sakif";
-        st = st.concat(" Shadman"); //concat() method appends the string at the end
+        st.concat(" Shadman"); //concat() method appends the string at the end
         System.out.println(st);
 //        System.out.println(aa);
 //        aa.concat("Arnob");
@@ -91,6 +91,11 @@ public class StringConcept { //6
         //The String class valueOf() method coverts given type such as int, long, float, double, boolean, char and char array into String.
         //The String class replace() method replaces all occurrence of first sequence of character with second sequence of character.
 
+        String t = "Apple,Grape,Banana,Mango";
+        String[] split = t.split(",");
+        for (String q : split) {
+            System.out.println(q);
+        }
 
         //Java StringBuffer class is used to create mutable (modifiable) String objects. The StringBuffer class in Java is the same as String class except it is mutable(it can be changed).
         //Java StringBuffer class is thread-safe so multiple threads cannot access it simultaneously. So it is safe and will result in an order.

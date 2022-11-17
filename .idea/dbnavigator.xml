@@ -20,7 +20,9 @@
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
+    <open-files>
+      <object connection-id="739c3070-c876-4503-8e79-b4ecca785d23" object-ref="schemas/sakila/tables/actor" />
+    </open-files>
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="739c3070-c876-4503-8e79-b4ecca785d23" dataset="sakila.actor" active-filter-id="EMPTY_FILTER" />

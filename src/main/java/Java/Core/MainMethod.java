@@ -3,6 +3,8 @@ package Java.Core;
 public class MainMethod { //1
 
     public static void main(String[] args) { //no override, but can overload
+
+        System.out.println("Hello");
     }
 
     public void main() {

@@ -30,5 +30,18 @@ public class SwitchCase { //3
             default:
                 System.out.println("invalid day");
         }
+
+        //if-else conditional branches are great for variable conditions that result into Boolean. It is either if-statement will be executed, or else-statement is executed.
+        //Switch statements are ideal for fixed data values. Switch case statement executes one case after another till a break statement appears or until the end of the switch statement is reached.
+
+        //Choosing one over the other is not that straightforward. Here are some tips when choosing one over the other;
+
+        //You can use if-else when:
+        //The condition result is a boolean.
+        //The conditions are complex. For example, you have conditions with multiple logical operators.
+
+        //You can use a switch-case when:
+        //There are multiple choices for an expression.
+        //The condition is based on a predefined set of values such as enums, constants, known types. For example, error codes, statuses, states, object types, etc.
     }
 }

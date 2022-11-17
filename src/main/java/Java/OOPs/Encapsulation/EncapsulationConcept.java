@@ -1,6 +1,16 @@
 package Java.OOPs.Encapsulation;
 
 public class EncapsulationConcept { //3
+
+    private String name;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
+    }
     public static void main(String[] args) {
 
         //Encapsulation in Java: Encapsulation in Java is a process of wrapping code and data together into a single unit.

@@ -9,7 +9,7 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.support.ui.Select;
 
 public class Basics {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
         WebDriver driver = new ChromeDriver(); //we use this so we can perform cross browser testing
         WebDriver driver1 = new FirefoxDriver();

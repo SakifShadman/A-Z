@@ -1,6 +1,10 @@
 package Java.OOPs.Encapsulation;
 
 public class AccessModifiers { //2
+
+    private AccessModifiers() {
+
+    }
     public static void main(String[] args) {
 
         //There are two types of modifiers in Java: access modifiers and non-access modifiers.

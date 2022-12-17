@@ -36,7 +36,6 @@ public class MySQLConnector {
         //closing DB Connection
         con.close();
 
-
         //Summary of Steps for Selenium Database Testing:
 
         //Step 1) Make a connection to the Database using method.

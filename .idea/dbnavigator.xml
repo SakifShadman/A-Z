@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -13,16 +13,16 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="739c3070-c876-4503-8e79-b4ecca785d23">
-      <console name="MySQL Connection" type="STANDARD" schema="sakila" session="Main"><![CDATA[select * from sakila.store;]]></console>
+      <console name="MySQL Connection" type="STANDARD" schema="sakila" session="Main"><![CDATA[select * from world.city;
+
+select count(*) from world.city;]]></console>
     </connection>
     <connection id="a6068a6a-13b6-46db-9cd8-781057ab2673">
       <console name="Connection" type="STANDARD" schema="" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files>
-      <object connection-id="739c3070-c876-4503-8e79-b4ecca785d23" object-ref="schemas/sakila/tables/actor" />
-    </open-files>
+    <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="739c3070-c876-4503-8e79-b4ecca785d23" dataset="sakila.actor" active-filter-id="EMPTY_FILTER" />
@@ -39,6 +39,9 @@
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
+  </component>
+  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
+    <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>

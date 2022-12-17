@@ -5,24 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb7795c-72d7-4b7f-8831-c9a96e0c7154" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/AdjacentArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/CompareArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/CountStringOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/MultiArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/PrimeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/ReverseNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/SortArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/SumOfArrayElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/SwapVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/TestPyramid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/UniqueNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/singleton/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/singleton/TestSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium/practice/KeysPractice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DBConnection/MySQLConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DBConnection/MySQLConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/CollectionsFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/CollectionsFramework.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/MainMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/MainMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/StringConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/StringConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/SwitchCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/SwitchCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Encapsulation/AccessModifiers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Encapsulation/AccessModifiers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Encapsulation/EncapsulationConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Encapsulation/EncapsulationConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/ConstructorConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/JavaObjectClass/ConstructorConcept.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/Binding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/Binding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverloading.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverloading.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverriding.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/OOPs/Polymorphism/MethodOverriding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DBConnection/SQLConnector.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/MainMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/MainMethod.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/StringConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/StringConcept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/SwitchCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/SwitchCase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/AnnotationsAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/AnnotationsAttributes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DBConnection/MySQLConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DBConnection/MySQLConnector.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium/Basics.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestNG/AnnotationsAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNG/AnnotationsAttributes.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +75,13 @@
       <recent name="C:\Users\arnob\IdeaProjects\MIPractice\src\main\java\TestNG\FromNaveen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeSetClass">
-    <configuration name="ListInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Collections.List.ListInterface" />
+  <component name="RunManager" selected="Application.ReverseNum">
+    <configuration name="CountStringOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.practice.CountStringOccurrence" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Collections.List.*" />
+          <option name="PATTERN" value="Java.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Core.MainMethod" />
+    <configuration name="MultiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.practice.MultiArray" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Core.*" />
+          <option name="PATTERN" value="Java.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySQLConnector" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DBConnection.MySQLConnector" />
+    <configuration name="ReverseNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.practice.ReverseNum" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DBConnection.*" />
+          <option name="PATTERN" value="Java.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringConcept" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Core.StringConcept" />
+    <configuration name="ReverseString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.practice.ReverseString" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Core.*" />
+          <option name="PATTERN" value="Java.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +128,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.Collections.Set.TreeSetClass" />
+    <configuration name="UniqueNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.practice.UniqueNumbers" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java.Collections.Set.*" />
+          <option name="PATTERN" value="Java.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TreeSetClass" />
-        <item itemvalue="Application.ListInterface" />
-        <item itemvalue="Application.MySQLConnector" />
-        <item itemvalue="Application.StringConcept" />
-        <item itemvalue="Application.MainMethod" />
+        <item itemvalue="Application.ReverseNum" />
+        <item itemvalue="Application.CountStringOccurrence" />
+        <item itemvalue="Application.Java.practice.UniqueNumbers" />
+        <item itemvalue="Application.Java.practice.ReverseString" />
+        <item itemvalue="Application.Java.practice.MultiArray" />
       </list>
     </recent_temporary>
   </component>

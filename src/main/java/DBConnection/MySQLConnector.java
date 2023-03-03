@@ -39,7 +39,7 @@ public class MySQLConnector {
         //Summary of Steps for Selenium Database Testing:
 
         //Step 1) Make a connection to the Database using method.
-        //DriverManager.getConnection(URL, "userid", "password")
+        //Connection con = DriverManager.getConnection(URL, "userid", "password")
 
         //Step 2) Create Query to the Database using the Statement Object.
         //Statement stmt = con.createStatement();

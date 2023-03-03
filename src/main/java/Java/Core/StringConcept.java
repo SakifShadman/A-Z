@@ -56,8 +56,10 @@ public class StringConcept { //6
         String ss1="Sachin";
         String ss2="Sachin";
         String ss3=new String("Sachin");
+        String ss4=new String("Sachin");
         System.out.println(ss1==ss2);//true (because both refer to same instance)
         System.out.println(ss1==ss3);//false(because ss3 refers to instance created in nonpool)
+        System.out.println(ss4==ss3);//false
 
         //By compareTo() Method:
         //The String class compareTo() method compares values lexicographically and returns an integer value that describes if first string is less than, equal to or greater than second string.

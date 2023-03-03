@@ -41,5 +41,22 @@ public class Groups { //5
         </classes>
     </test>
     </suite>
+
+    <suite name = "suite">
+    <test name = "test">
+        <groups>
+            <define name="Meta-Group">
+                <include name="Smoke"/>
+                <include name="Regression"/>
+            </define>
+            <run>
+                <include name="Meta-Group"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="TestNG.Groups"/>
+        </classes>
+    </test>
+</suite>
      */
 }

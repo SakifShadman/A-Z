@@ -5,7 +5,10 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
+
+import java.security.Key;
 
 public class KeysPractice {
 
@@ -21,6 +24,7 @@ public class KeysPractice {
 
         //scroll down
         WebElement element = driver.findElement(By.cssSelector("div[class='az_Rqb'] input[class='az_Wqb']"));
+        element.click();
         element.sendKeys(Keys.ARROW_DOWN);
         element.sendKeys(Keys.ARROW_DOWN);
         element.sendKeys(Keys.ENTER);

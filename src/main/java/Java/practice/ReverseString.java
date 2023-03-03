@@ -5,18 +5,31 @@ public class ReverseString {
 
     public static void main(String[] args) {
 
-        String st = "sakif";
+        String st = "hello";
         String t = "";
 
-        for (int i=st.length()-1; i>=0; i--) {
-            t = t + st.charAt(i);
-        }
-        System.out.println(t);
+        System.out.println(reverseString(st));
 
-        if (st.equals(t)) {
-            System.out.println("It is palindrome");
+//        for (int i=st.length()-1; i>=0; i--) {
+//            t = t + st.charAt(i);
+//        }
+//        System.out.println(t);
+//
+//        if (st.equals(t)) {
+//            System.out.println("It is palindrome");
+//        }
+//        else
+//            System.out.println("It is not palindrome");
+    }
+
+    public static String reverseString(String str){
+
+        String rvs = "";
+
+        for(int i=str.length()-1; i>=0; i--){
+            rvs = rvs + str.charAt(i);
         }
-        else
-            System.out.println("It is not palindrome");
+
+        return rvs;
     }
 }

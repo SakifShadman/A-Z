@@ -30,14 +30,14 @@ public class TakeElementScreenshot {
         takeElementScreenshot(password, "passwordElement");
         takeElementScreenshot(loginBtn, "loginBtnElement");
 
-//        String path = "src/main/java/Selenium/Screenshot/";
-//        File srcFile = username.getScreenshotAs(OutputType.FILE);
-//        File destFile = new File(path + System.currentTimeMillis() + ".png");
-//        try {
-//            FileUtils.copyFile(srcFile, destFile);
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
+        String path = "src/main/java/Selenium/Screenshot/";
+        File srcFile = username.getScreenshotAs(OutputType.FILE);
+        File destFile = new File(path + System.currentTimeMillis() + ".png");
+        try {
+            FileUtils.copyFile(srcFile, destFile);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         driver.quit();
     }
 

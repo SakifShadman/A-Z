@@ -18,7 +18,7 @@ public class MultiplicationTable {
     }
 
     public static void main(String[] args) {
-        int multiply = multiply(7,6);
+        int multiply = multiply(5,10);
         System.out.println(multiply);
     }
 }

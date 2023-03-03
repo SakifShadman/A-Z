@@ -1,5 +1,7 @@
 package Java.Collections.Mixed;
 
+import java.util.Collections;
+
 public class CollectionsClass { //2
     public static void main(String[] args) {
 

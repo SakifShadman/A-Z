@@ -27,14 +27,14 @@ public class ElementScreenshotPart2 {
         takeElementScreenshot(password, "password");
         takeElementScreenshot(loginBtn, "loginBtn");
 
-//        TakesScreenshot srcShot = ((TakesScreenshot)username);
-//        File srcFile = srcShot.getScreenshotAs(OutputType.FILE);
-//
-//        try {
-//            FileUtils.copyFile(srcFile, new File("./target/screenshots/username.png"));
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
+        TakesScreenshot srcShot = ((TakesScreenshot)username);
+        File srcFile = srcShot.getScreenshotAs(OutputType.FILE);
+
+        try {
+            FileUtils.copyFile(srcFile, new File("./target/screenshots/username.png"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
         driver.quit();
     }
 

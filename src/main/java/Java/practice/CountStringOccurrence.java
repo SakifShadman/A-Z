@@ -6,7 +6,7 @@ public class CountStringOccurrence {
 
     public static void main(String[] args) {
 
-        int count = countOccurrences("aanjda", 'a');
+        int count = countOccurrences("sakifshadmanarnob", 'a');
         System.out.println(count);
     }
 

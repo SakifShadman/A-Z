@@ -5,31 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb7795c-72d7-4b7f-8831-c9a96e0c7154" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/AdjacentArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/CompareArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/CountStringOccurrence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/MultiArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/MultiplicationTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/PrimeNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/ReverseNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/SortArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/SumOfArrayElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/SwapVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/TestPyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/UniqueNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/singleton/Singleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Java/singleton/TestSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Selenium/practice/KeysPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Homework12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/Anagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/MockPractice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/StringOccurrence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Java/practice/testttt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Interview.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DBConnection/MySQLConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DBConnection/MySQLConnector.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/Basics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/Basics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/AnnotationsAttributes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/AnnotationsAttributes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DBConnection/MySQLConnector.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DBConnection/MySQLConnector.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/Basics.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium/Basics.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestNG/AnnotationsAttributes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestNG/AnnotationsAttributes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Collections/Mixed/CollectionsClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Collections/Mixed/CollectionsClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/Core/StringConcept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/StringConcept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/CompareArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/CompareArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/CountStringOccurrence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/CountStringOccurrence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/MultiplicationTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/MultiplicationTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/PrimeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/PrimeNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/ReverseString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/ReverseString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/practice/TestPyramid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/practice/TestPyramid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Java/singleton/TestSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Java/Core/singleton/TestSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/Screenshot/ElementScreenshotPart2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/Screenshot/ElementScreenshotPart2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/Screenshot/TakeElementScreenshot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/Screenshot/TakeElementScreenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Selenium/practice/KeysPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium/practice/KeysPractice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/FromNaveen/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/FromNaveen/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestNG/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestNG/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/Collections/Mixed/CollectionsClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Collections/Mixed/CollectionsClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/Core/StringConcept.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/Core/StringConcept.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/CompareArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/CompareArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/CountStringOccurrence.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/CountStringOccurrence.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/Fibonacci.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/Fibonacci.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/MultiplicationTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/MultiplicationTable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/PrimeNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/PrimeNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/ReverseString.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/ReverseString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/SortArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/SortArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/practice/TestPyramid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Java/practice/TestPyramid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/singleton/Singleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Java/singleton/TestSingleton.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/Screenshot/ElementScreenshotPart2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium/Screenshot/ElementScreenshotPart2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/Screenshot/TakeElementScreenshot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium/Screenshot/TakeElementScreenshot.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium/practice/KeysPractice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium/practice/KeysPractice.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,42 +92,17 @@
       <recent name="C:\Users\arnob\IdeaProjects\MIPractice\src\main\java\TestNG\FromNaveen" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReverseNum">
-    <configuration name="CountStringOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.practice.CountStringOccurrence" />
+  <component name="RunManager" selected="Application.Interview">
+    <configuration name="Homework12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Homework12" />
       <module name="MIPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.practice.MultiArray" />
+    <configuration name="Interview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Interview" />
       <module name="MIPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseNum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.practice.ReverseNum" />
-      <module name="MIPractice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Java.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniqueNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java.practice.UniqueNumbers" />
+    <configuration name="StringOccurrence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java.practice.StringOccurrence" />
       <module name="MIPractice" />
       <extension name="coverage">
         <pattern>
@@ -141,13 +133,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Assertions.softAssertion" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="MIPractice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TestNG.FromNaveen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="TestNG.FromNaveen" />
+      <option name="MAIN_CLASS_NAME" value="TestNG.FromNaveen.Assertions" />
+      <option name="METHOD_NAME" value="softAssertion" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseNum" />
-        <item itemvalue="Application.CountStringOccurrence" />
-        <item itemvalue="Application.Java.practice.UniqueNumbers" />
-        <item itemvalue="Application.Java.practice.ReverseString" />
-        <item itemvalue="Application.Java.practice.MultiArray" />
+        <item itemvalue="Application.Interview" />
+        <item itemvalue="Application.ReverseString" />
+        <item itemvalue="Application.StringOccurrence" />
+        <item itemvalue="Application.Homework12" />
+        <item itemvalue="TestNG.Assertions.softAssertion" />
       </list>
     </recent_temporary>
   </component>
